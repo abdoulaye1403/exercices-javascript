@@ -5,13 +5,15 @@ const user = {
 }
 
 
-
+let resp = document.getElementById("resp");
 let mp = prompt("Entrez votre mot de passe SVP");
 
 if (user.motdepass == mp){
-               document.write("Bienvenue M. " + user.name);
+               resp.innerText = "Bienvenue M. " + user.name
+              // document.write("Bienvenue M. " + user.name);
 }else{
-               document.write("erreur dans le mot de passe")
+               resp.innerText = "oups! erreur dans le mot de passe" 
+               //document.write("erreur dans le mot de passe")
 }
 
               
