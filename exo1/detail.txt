@@ -1,0 +1,4 @@
+const user = {
+               name: "Oumar",
+               motdepass: "oumar123@"
+}
