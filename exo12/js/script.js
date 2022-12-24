@@ -1,6 +1,6 @@
 let numbers = []
 
-for(let i = 1; i<= 10 ; i++){
+for(let i = 1; i<= 20 ; i++){
                let a = Number(prompt("Entrez le numero "+ i +' :'))
                while(numbers.find((t) => t== a)){
                                a = Number(prompt("Entrez le numero "+ i +' :'))
