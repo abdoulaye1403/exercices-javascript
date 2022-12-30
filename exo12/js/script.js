@@ -12,4 +12,4 @@ document.write(numbers)
 let maxNumber = Math.max(...numbers);
 
 document.write("la valeur du plus grand est : " + maxNumber)
-document.write("elle  etait a la position :" + (numbers.indexOf(maxNumber) + 1))
+document.write("elle  etait a la position :" + (numbers.indexOf(maxNumber)))
